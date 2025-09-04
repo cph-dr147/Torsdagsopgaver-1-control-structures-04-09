@@ -5,6 +5,7 @@ void setup(){
 String month = "september";
 int days = 0;
 
+//1.b
 switch(month){
 case "januar":
 case "marts":
@@ -28,5 +29,6 @@ days = 28;
 break; 
 }
 
+//1.c
 println(month + " har " + days + " dage");
 }
